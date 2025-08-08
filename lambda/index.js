@@ -1,0 +1,1 @@
+<O código completo do index.js extraído do documento>

@@ -1,0 +1,109 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "minemo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "StartGameIntent",
+          "slots": [
+            {
+              "name": "game",
+              "type": "GAME_TYPE"
+            }
+          ],
+          "samples": [
+            "quero jogar",
+            "começar jogo",
+            "vamos jogar",
+            "iniciar memorização",
+            "abrir memorização"
+          ]
+        },
+        {
+          "name": "MemorizacaoIntent",
+          "slots": [
+            {
+              "name": "nivel",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "memorização",
+            "memoria",
+            "memorizar",
+            "vamos memorizar"
+          ]
+        },
+        {
+          "name": "RespostaIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "é {answer}",
+            "acho que é {answer}",
+            "{answer}"
+          ]
+        },
+        {
+          "name": "RepeatIntent",
+          "samples": [
+            "repita",
+            "repete",
+            "diz novamente"
+          ]
+        },
+        {
+          "name": "NextIntent",
+          "samples": [
+            "próxima",
+            "continuar",
+            "seguinte"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "GAME_TYPE",
+          "values": [
+            {
+              "name": {
+                "value": "memorizacao"
+              }
+            },
+            {
+              "name": {
+                "value": "diferencas"
+              }
+            },
+            {
+              "name": {
+                "value": "quiz"
+              }
+            },
+            {
+              "name": {
+                "value": "matematica"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

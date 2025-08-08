@@ -1,0 +1,11 @@
+{
+  "name": "memoria-ativa-lambda",
+  "version": "1.0.0",
+  "description": "Lambda for Memoria Ativa Alexa Skill",
+  "main": "index.js",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0"
+  }
+}
