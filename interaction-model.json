@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "Minemo",
+      "invocationName": "minemo jogo",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
