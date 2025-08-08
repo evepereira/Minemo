@@ -1,4 +1,4 @@
-# Memória Ativa — Alexa Skill
+# Minemo — Alexa Skill
 
 Skill para estimulação cognitiva de idosos com problemas de memória.
 
